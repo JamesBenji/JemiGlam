@@ -1,0 +1,145 @@
+
+.main{
+    background-image: url(../assets/images/main-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 87vh;
+    padding-top: 13vh;
+    /* margin-top: 13vh; */
+    /* position: relative; */
+}
+
+.main-text{
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 25vh;
+    left: 10vw;
+    font-family: reina-light;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.main-text-light{
+    color: white;
+    margin: -3rem 0;
+}
+
+.main-text span{
+    color: rgb(220, 28, 28);
+    font-family: kalufonia;
+    font-size: 6rem;
+}
+
+.jemi-glam-white{
+    width: 60px;
+}
+
+/* <><><><><><><><><><><><About><><><><><><><><><><><><><> */
+
+.about, .mission-vision{
+    display: block;
+    margin: 2vh auto;
+    width: 70vw;
+    /* background-color:  var(--pastel-pink); */
+}
+
+.about-headers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-big{
+    font-size: 5rem;
+    font-family: cinzel;
+    margin-bottom: 2rem;
+}
+
+.about-small{
+    font-size: 2.5rem;
+    font-family: cinzel-decorative;
+    margin-bottom: 2rem;
+}
+
+.about-main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    align-items: center;
+}
+
+.about-img, .mission-img{
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: -10px 10px 0px 0px black;
+}
+
+.mission-img{
+    box-shadow: 10px 10px 0px 0px white;
+}
+
+.about-text{
+    max-width: 35vw;
+    font-family: timeless;
+    font-size: 1.4rem;
+    /* margin-top: 2rem; */
+}
+
+.mission-vision{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    margin-top: 4rem;
+}
+
+.mission-vision-wrapper{
+    width: 70vw;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+}
+
+.about-text h3{
+    font-family: cinzel-decorative;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+footer{
+    border-top: 2px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: timeless;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+
+}
+
+footer div img{
+    width: 100px;
+}
+
+footer span{
+    font-family: timeless;
+    font-size: 1.2rem;
+}
+
+.ul-1{
+    list-style: none;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.ul-2{
+    list-style: none;
+    margin-left: 4rem;
+}

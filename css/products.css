@@ -1,0 +1,37 @@
+.block-products{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.products > * {
+    flex-basis: calc(33.33% - 10px); /* Set width of each item to one-third minus spacing */
+    margin: 5px; /* Adjust margin as needed */
+}
+
+.product-description{
+    font-family: cinzel;
+    margin-top: 1rem;
+}
+
+.product-name{
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding-bottom: 0.5rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 0;
+}
